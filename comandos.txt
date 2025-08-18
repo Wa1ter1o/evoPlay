@@ -1,3 +1,16 @@
+Crear Entorno:
+python -m venv yoloEnv
+
+Activar entorno:
+.\yoloEnv\Scripts\Activate.ps1
+
+Instalar ultralytics en el entorno (icluye soporte para gpu):
+pip install ultralytics[all]
+
+Instalar torch con soporte de GPU:
+pip uninstall torch torchvision torchaudio -y
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
 Entrenar modelo:
 yolo task=detect mode=train model=yolo11n.pt data="yolo/dataset/Evo detection.v3i.yolov11/data.yaml" epochs=1000 imgsz=640 device=0
 

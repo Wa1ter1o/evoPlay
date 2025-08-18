@@ -1,0 +1,11 @@
+from ultralytics import YOLO
+
+# Cargar un modelo pretrained (descargará el modelo si no está localmente)
+model = YOLO('yolo11n.pt')
+
+# Realizar la predicción en una imagen
+
+# Los resultados contienen información sobre las detecciones
+# Puedes imprimirlos o procesarlos según necesites
+for r in results:
+    print(r.boxes.data) # Imprime las cajas delimitadoras (bounding boxes) detectadas

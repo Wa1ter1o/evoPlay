@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 70
+names: ['aguila', 'alcon', 'antorcha', 'arandano', 'arbusto', 'avellana', 'avispa', 'avispon', 'buho', 'buho_nibal', 'buitre', 'cacao', 'cangrejo', 'carne', 'cerdo', 'ciguenia', 'cocodrilo', 'cuervo', 'dragon', 'enjambre', 'fenix', 'flor', 'fresa', 'gallina', 'gato', 'gavilan', 'gaviota', 'guinda', 'gusano', 'huevo', 'libelula', 'loro', 'mamut', 'mariposa', 'mariquita', 'mascota', 'mirio', 'mirlo', 'mosca', 'mosquito', 'mounstro', 'murcielago', 'murcielago_loco', 'nuve', 'p_azul', 'p_carpintero', 'p_marron', 'p_rojo', 'paloma', 'pan', 'pato', 'pavo', 'pelicano', 'pescado', 'pez', 'pinguino', 'pirania', 'popo', 'pterodactilo', 'raiz', 'rana', 'raton', 'res', 'serpiente', 'suelo', 'tela', 'tiburon', 'tortuga', 'vampiro', 'vida']
+
+roboflow:
+  workspace: evo-wuixm
+  project: evo-detection-jld1y
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/evo-wuixm/evo-detection-jld1y/dataset/3

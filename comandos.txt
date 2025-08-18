@@ -1,0 +1,6 @@
+Entrenar modelo:
+yolo task=detect mode=train model=yolo11n.pt data="yolo/dataset/Evo detection.v3i.yolov11/data.yaml" epochs=1000 imgsz=640 device=0
+
+Probar modelo:
+yolo task=detect mode=val model=runs/detect/train/weights/best.pt data="yolo/dataset/Evo detection.v2i.yolov11/data.yaml" device=0
+

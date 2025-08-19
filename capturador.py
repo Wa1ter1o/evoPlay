@@ -7,7 +7,7 @@ import numpy as np
 sct = mss.mss()
 
 #model = YOLO("yolo11n.pt").to("cuda")
-model = YOLO("runs/detect/train6/weights/best.pt").to("cuda")
+model = YOLO("runs/detect/train8/weights/best.pt").to("cuda")
 
 # Definir región (x, y, ancho, alto)
 monitor = {"top": 250, "left": 100, "width": 1850, "height": 1200}

@@ -2,7 +2,9 @@ Crear Entorno:
 python -m venv yoloEnv
 
 Activar entorno:
-.\yoloEnv\Scripts\Activate.ps1
+powershell: .\yoloEnv\Scripts\Activate.ps1
+linux:      source yoloEnv/bin/activate
+
 
 Instalar ultralytics en el entorno (icluye soporte para gpu):
 pip install ultralytics[all]
